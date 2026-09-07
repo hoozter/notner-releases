@@ -26,3 +26,8 @@ chmod +x notner-bridge-linux-x86_64.AppImage
 Release checksums are included in each release description. This repository
 contains release artifacts only; deployment and self-hosting documentation is
 maintained with the notner source.
+
+## Third-party notices
+
+[Supplemental third-party notices for Bridge v1.0.0–v1.0.3](legal/README.md)
+accompany the existing downloads. Their embedded notices remain applicable.
