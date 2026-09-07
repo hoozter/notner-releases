@@ -71,6 +71,17 @@ The original license files are unmodified. No private application source
 is included, and these texts do not license Notner itself.
 
 This supplement is not a reproducible-build attestation or complete binary
-bill of materials. Rust standard-library/backtrace/compiler runtime notices,
-AppImage runtime provenance, and the source-delivery limitations above remain
-unresolved. Existing downloads are unchanged.
+bill of materials. Existing downloads are unchanged.
+
+### Rust standard library
+
+The helper records rustc revision `4a4ef493e3a1488c6e321570238084b38948f6db`
+(Rust 1.94.0). The installed toolchain reports that same revision.
+Its unmodified [standard-library copyright notices](rust-runtime/COPYRIGHT-library.html)
+are supplied with the original [MIT](rust-runtime/LICENSE-MIT) and
+[Apache 2.0](rust-runtime/LICENSE-APACHE) texts from that Rust revision.
+The upstream notice includes other targets and build dependencies; their
+inclusion does not mean they are linked into this Linux executable.
+
+Compiler-builtins/runtime coverage, AppImage runtime provenance, and the
+source-delivery limitations above remain unresolved.
