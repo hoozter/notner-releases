@@ -56,3 +56,21 @@ archives will remain available or a complete corresponding-source delivery.
 Reproducible builds and any additional conveyance obligations have not been
 established. The application’s native helper and the AppImage runtime remain
 under review; these notices do not establish complete compliance.
+
+## Native Rust helper — supplemental crate notices
+
+The retained `notner-safe-files` executable matches the helper in all four
+AppImages (SHA-256 `1edc7c21c49b61ec9a41cc2d8384298d2c44c0410ae17a7e568e6b4043f78a03`). Its retained Cargo
+lockfile and dependency files identify the crate versions indexed below.
+All crate archives were checked against their lockfile SHA-256 checksums.
+
+[Crate index and original legal files](rust-helper/index.json) includes the
+entire retained dependency graph, including build-time procedural macros;
+it does not assert that each crate is linked into the shipped executable.
+The original license files are unmodified. No private application source
+is included, and these texts do not license Notner itself.
+
+This supplement is not a reproducible-build attestation or complete binary
+bill of materials. Rust standard-library/backtrace/compiler runtime notices,
+AppImage runtime provenance, and the source-delivery limitations above remain
+unresolved. Existing downloads are unchanged.
