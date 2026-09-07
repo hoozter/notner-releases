@@ -1,7 +1,8 @@
 # AppImage runtime: verified provenance and supplemental notices
 
-Scope: Notner v1.0.3 Linux x86_64 AppImage only. The retained full artifact
-matches published SHA-256 `4bdbfbb2ca4915c2a4d3979ae5767b6f7cda883e5b86bc78b1a6173b86263077`.
+Scope: Notner v1.0.0–v1.0.3 Linux x86_64 AppImages. All four published
+artifacts have identical first 188392 bytes, verified by bounded HTTP range
+reads. The retained full v1.0.3 artifact matches published SHA-256 `4bdbfbb2ca4915c2a4d3979ae5767b6f7cda883e5b86bc78b1a6173b86263077`.
 Its first 188392 bytes match the electron-builder appimage-12.0.1
 `runtime-x64` byte-for-byte, with SHA-256
 `24da8e0e149b7211cbfb00a545189a1101cb18d1f27d4cfc1895837d2c30bc30`.
@@ -36,6 +37,6 @@ linked source or build options.
   this does not mean the XZ command-line tools or build scripts are in Notner.
 
 These supplements do not establish complete runtime dependency coverage or
-corresponding-source delivery. Historical AppImage runtime prefixes have not
-yet been compared. Existing downloads and private application source are
+corresponding-source delivery. Runtime notice coverage applies to all four
+compared releases. Existing downloads and private application source are
 unchanged; these third-party terms do not license Notner itself.
