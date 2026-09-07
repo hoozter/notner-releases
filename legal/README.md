@@ -18,7 +18,7 @@ They are supplemental notices, not a claim that every native-library or
 corresponding-source obligation has been resolved. Existing AppImage bytes
 and release checksums are unchanged.
 
-## Linux helper libraries — v1.0.3
+## Linux helper libraries — v1.0.0–v1.0.3
 
 The six shared libraries below were matched byte-for-byte to their original
 Ubuntu binary packages. These are the unmodified copyright files from those
@@ -37,6 +37,22 @@ Full license texts referenced by these notices: [LGPL-2](LGPL-2),
 The libraries also match the immutable [appimage-12.0.1 upstream tree](https://github.com/electron-userland/electron-builder-binaries/tree/57839c6516289c0412c1b0887a6718d71e1ac5c2/AppImage/lib/x64).
 The [upstream packaging script](https://github.com/electron-userland/electron-builder-binaries/blob/57839c6516289c0412c1b0887a6718d71e1ac5c2/appImage-packages-x64.sh) identifies the original Ubuntu packages.
 
-This native-library comparison covers v1.0.3 only. Corresponding source and
-build materials, the application’s native helper, and the AppImage runtime
-remain under review; these notices do not establish complete compliance.
+All six library hashes also match in v1.0.0, v1.0.1, and v1.0.2. Each
+historical AppImage was checked against its published whole-file SHA-256;
+no artifacts have been replaced.
+
+### Ubuntu source packages
+
+The [source-package index](linux-source-packages.json) records the original
+binary packages, source-package descriptions (`.dsc`), upstream source
+archives, and Debian packaging archives or patches. All twelve source
+archives/patches were downloaded and their sizes and SHA-256 hashes matched
+the corresponding `.dsc` metadata. These include the upstream source and
+Ubuntu/Debian packaging materials for the six helper-library packages.
+OpenPGP signatures were not independently validated.
+
+This index provides verified source locations, not a promise that external
+archives will remain available or a complete corresponding-source delivery.
+Reproducible builds and any additional conveyance obligations have not been
+established. The application’s native helper and the AppImage runtime remain
+under review; these notices do not establish complete compliance.

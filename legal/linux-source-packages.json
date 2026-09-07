@@ -1,0 +1,138 @@
+{
+  "scope": "Six Ubuntu helper libraries verified in notner Bridge Linux x86_64 AppImages v1.0.0 through v1.0.3",
+  "verification": "Binary package control metadata identifies source package/version. Source archives and Debian patches were downloaded and matched to SHA-256 and size in the linked .dsc. OpenPGP signatures were not independently validated. This is a source-location index, not a complete corresponding-source delivery or reproducible-build claim.",
+  "packages": [
+    {
+      "binary_package": "libgconf-2-4",
+      "binary_version": "3.2.6-0ubuntu2",
+      "binary_url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gconf/libgconf-2-4_3.2.6-0ubuntu2_amd64.deb",
+      "source_package": "gconf",
+      "dsc_url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gconf/gconf_3.2.6-0ubuntu2.dsc",
+      "dsc_sha256": "f82088533828540a3b1ca97f58b87568003eca1cdc3a1f5b1d83b0b91161715e",
+      "source_files": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gconf/gconf_3.2.6.orig.tar.xz",
+          "size": 1559904,
+          "sha256": "1912b91803ab09a5eed34d364bf09fe3a2a9c96751fde03a4e0cfa51a04d784c",
+          "download_verified": true
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/g/gconf/gconf_3.2.6-0ubuntu2.debian.tar.gz",
+          "size": 37395,
+          "sha256": "7ef4d5a3d4149c6707d645cc1f57189a48da87c41ebc235a6d51a62653ac38de",
+          "download_verified": true
+        }
+      ]
+    },
+    {
+      "binary_package": "libnotify4",
+      "binary_version": "0.7.6-1ubuntu3",
+      "binary_url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libn/libnotify/libnotify4_0.7.6-1ubuntu3_amd64.deb",
+      "source_package": "libnotify",
+      "dsc_url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libn/libnotify/libnotify_0.7.6-1ubuntu3.dsc",
+      "dsc_sha256": "75fded2321055566ffda8a045cbd97e078994f70f743f3c266c9916192314607",
+      "source_files": [
+        {
+          "url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libn/libnotify/libnotify_0.7.6.orig.tar.xz",
+          "size": 280388,
+          "sha256": "0ef61ca400d30e28217979bfa0e73a7406b19c32dd76150654ec5b2bdf47d837",
+          "download_verified": true
+        },
+        {
+          "url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libn/libnotify/libnotify_0.7.6-1ubuntu3.debian.tar.gz",
+          "size": 9252,
+          "sha256": "fcf89036400453d43c3181aecccea1bb51c8ae1304a84bccbb6951918d6bfdfa",
+          "download_verified": true
+        }
+      ]
+    },
+    {
+      "binary_package": "libappindicator1",
+      "binary_version": "12.10.1+13.10.20130920-0ubuntu4",
+      "binary_url": "https://old-releases.ubuntu.com/ubuntu/pool/main/liba/libappindicator/libappindicator1_12.10.1+13.10.20130920-0ubuntu4_amd64.deb",
+      "source_package": "libappindicator",
+      "dsc_url": "https://old-releases.ubuntu.com/ubuntu/pool/main/liba/libappindicator/libappindicator_12.10.1+13.10.20130920-0ubuntu4.dsc",
+      "dsc_sha256": "5a9510dbdc1f643df058686e881b93570dd0e70688c927077a8c0b9f1812cdc9",
+      "source_files": [
+        {
+          "url": "https://old-releases.ubuntu.com/ubuntu/pool/main/liba/libappindicator/libappindicator_12.10.1+13.10.20130920.orig.tar.gz",
+          "size": 70392,
+          "sha256": "0b93526101c07cce65a3d8dc3d43e77e06780ce023ab82605e32c8babc139a2c",
+          "download_verified": true
+        },
+        {
+          "url": "https://old-releases.ubuntu.com/ubuntu/pool/main/liba/libappindicator/libappindicator_12.10.1+13.10.20130920-0ubuntu4.diff.gz",
+          "size": 13004,
+          "sha256": "eba447e640f1df6537b55c5c94703f4faf6ba365fefe15730a29f6578d75a14e",
+          "download_verified": true
+        }
+      ]
+    },
+    {
+      "binary_package": "libindicator7",
+      "binary_version": "12.10.2+14.04.20140402-0ubuntu1",
+      "binary_url": "https://archive.ubuntu.com/ubuntu/pool/main/libi/libindicator/libindicator7_12.10.2+14.04.20140402-0ubuntu1_amd64.deb",
+      "source_package": "libindicator",
+      "dsc_url": "https://archive.ubuntu.com/ubuntu/pool/main/libi/libindicator/libindicator_12.10.2+14.04.20140402-0ubuntu1.dsc",
+      "dsc_sha256": "68d6d1b6a3f9177e8306a1aeb3cb1bcb0d1c86a06ee18c8dcbbaff90140b8866",
+      "source_files": [
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libi/libindicator/libindicator_12.10.2+14.04.20140402.orig.tar.gz",
+          "size": 69544,
+          "sha256": "89390bb92d7b2324f4c7396d7a15da37e2943d4f55d86ba6284fc0ce60223a67",
+          "download_verified": true
+        },
+        {
+          "url": "https://archive.ubuntu.com/ubuntu/pool/main/libi/libindicator/libindicator_12.10.2+14.04.20140402-0ubuntu1.diff.gz",
+          "size": 10675,
+          "sha256": "7ab838d01ad7f5213e6ab3bc9fe60d1be83a360976c88d30e9ae66a3881bf775",
+          "download_verified": true
+        }
+      ]
+    },
+    {
+      "binary_package": "libxtst6",
+      "binary_version": "2:1.2.2-1",
+      "binary_url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libx/libxtst/libxtst6_1.2.2-1_amd64.deb",
+      "source_package": "libxtst",
+      "dsc_url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libx/libxtst/libxtst_1.2.2-1.dsc",
+      "dsc_sha256": "92507fe81ab453ee4e9de52e3b638e33429f74f175ea496c310bffb8434e4b4d",
+      "source_files": [
+        {
+          "url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libx/libxtst/libxtst_1.2.2.orig.tar.gz",
+          "size": 392569,
+          "sha256": "221838960c7b9058cd6795c1c3ee8e25bae1c68106be314bc3036a4f26be0e6c",
+          "download_verified": true
+        },
+        {
+          "url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libx/libxtst/libxtst_1.2.2-1.diff.gz",
+          "size": 16977,
+          "sha256": "3f1ae4cee26b1d93d037610bb7397f324eb293a0520e2be5f5bd822c115cd639",
+          "download_verified": true
+        }
+      ]
+    },
+    {
+      "binary_package": "libxss1",
+      "binary_version": "1:1.2.2-1",
+      "binary_url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libx/libxss/libxss1_1.2.2-1_amd64.deb",
+      "source_package": "libxss",
+      "dsc_url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libx/libxss/libxss_1.2.2-1.dsc",
+      "dsc_sha256": "22379490d80d7661c793f0f016a5e12255fdb53a0b2b58b6fe14afa805fcac3f",
+      "source_files": [
+        {
+          "url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libx/libxss/libxss_1.2.2.orig.tar.gz",
+          "size": 348915,
+          "sha256": "e12ba814d44f7b58534c0d8521e2d4574f7bf2787da405de4341c3b9f4cc8d96",
+          "download_verified": true
+        },
+        {
+          "url": "https://old-releases.ubuntu.com/ubuntu/pool/main/libx/libxss/libxss_1.2.2-1.diff.gz",
+          "size": 14712,
+          "sha256": "fcc9c125f3af01da27f6cee798410a7907a63802f5c6360f972e12b1ff59e6c1",
+          "download_verified": true
+        }
+      ]
+    }
+  ]
+}
