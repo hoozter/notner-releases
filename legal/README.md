@@ -43,19 +43,18 @@ no artifacts have been replaced.
 
 ### Ubuntu source packages
 
-The [source-package index](linux-source-packages.json) records the original
-binary packages, source-package descriptions (`.dsc`), upstream source
-archives, and Debian packaging archives or patches. All twelve source
-archives/patches were downloaded and their sizes and SHA-256 hashes matched
-the corresponding `.dsc` metadata. These include the upstream source and
-Ubuntu/Debian packaging materials for the six helper-library packages.
+The [source-package index](linux-source-packages.json) maps the six binary
+packages to source copies supplied in [linux-sources/](linux-sources/): the
+original `.dsc` files, upstream source archives, and Debian/Ubuntu packaging
+archives or patches. Every file matches its recorded SHA-256; archive sizes
+also match the `.dsc` metadata. Upstream URLs remain in the index for reference.
 OpenPGP signatures were not independently validated.
 
-This index provides verified source locations, not a promise that external
-archives will remain available or a complete corresponding-source delivery.
-Reproducible builds and any additional conveyance obligations have not been
-established. The application’s native helper and the AppImage runtime remain
-under review; these notices do not establish complete compliance.
+These are unmodified third-party source packages, not Notner application
+source. They include the packaging build scripts and patches for the matched
+Ubuntu libraries. No reproducible-build claim is made. Application relinking
+conditions and any separate runtime obligations are not resolved by this
+source supplement alone.
 
 ## Native Rust helper — supplemental crate notices
 
