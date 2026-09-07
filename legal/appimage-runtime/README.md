@@ -17,10 +17,25 @@ source revision; it is not independent proof of a reproducible build.
   preserved verbatim from [upstream](https://raw.githubusercontent.com/AppImage/AppImageKit/effcebc1d81c5e174a48b870cb420f490fb5fb4d/src/runtime.c), including Alexander Larsson's credit.
 - [Reported source revision](https://github.com/AppImage/AppImageKit/tree/effcebc1d81c5e174a48b870cb420f490fb5fb4d).
 
-These notices do not cover every runtime dependency. The executable contains
-Squashfuse and LZMA symbols; their exact linked source/build provenance and
-applicable notices remain under review. The AppImageKit root license explicitly
-excludes dependencies with different terms. No complete corresponding-source
-or reproducible-build claim is made. Historical AppImage runtime prefixes have
-not yet been compared. Existing downloads and private application source are
+## Squashfuse and liblzma
+
+The reported AppImageKit revision pins libappimage to
+`13f401a4a384ec59ec9a144e2a7006adf751571f`. Its
+[dependency recipe](https://github.com/AppImage/libappimage/blob/13f401a4a384ec59ec9a144e2a7006adf751571f/cmake/dependencies.cmake)
+selects Squashfuse `1f98030` and XZ Utils 5.2.3 by default. The runtime contains
+Squashfuse and LZMA symbols. These recipe selections are not proof of the exact
+linked source or build options.
+
+- [Squashfuse license](squashfuse-LICENSE), preserved from revision
+  [`1f980303b89c779eabfd0a0fdd36d6a7a311bf92`](https://github.com/vasi/squashfuse/tree/1f980303b89c779eabfd0a0fdd36d6a7a311bf92).
+- [XZ Utils licensing notice](xz-COPYING), preserved from 5.2.3 revision
+  [`3d566cd519017eee1a400e7961ff14058dfaf33c`](https://github.com/tukaani-project/xz/tree/3d566cd519017eee1a400e7961ff14058dfaf33c).
+  It places liblzma source in the public domain. Its referenced
+  [LGPLv2.1](xz-COPYING.LGPLv2.1), [GPLv2](xz-COPYING.GPLv2) and
+  [GPLv3](xz-COPYING.GPLv3) texts are supplied for completeness of that notice;
+  this does not mean the XZ command-line tools or build scripts are in Notner.
+
+These supplements do not establish complete runtime dependency coverage or
+corresponding-source delivery. Historical AppImage runtime prefixes have not
+yet been compared. Existing downloads and private application source are
 unchanged; these third-party terms do not license Notner itself.
