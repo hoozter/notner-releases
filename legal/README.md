@@ -89,5 +89,7 @@ the LLVM exception, and its referenced [libm notices](rust-runtime/libm-LICENSE.
 The referenced [compiler-rt contributor list](rust-runtime/compiler-rt-CREDITS.TXT)
 is also included. These are upstream notices, not an inventory of linked routines.
 
-AppImage runtime provenance and the source-delivery limitations above remain
-unresolved.
+AppImage v1.0.3 runtime bytes now have [verified upstream provenance and
+supplemental original notices](appimage-runtime/README.md). Runtime dependency
+coverage, historical runtime comparisons and the source-delivery limitations
+above remain unresolved.
