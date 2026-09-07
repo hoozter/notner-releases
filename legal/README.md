@@ -83,5 +83,11 @@ are supplied with the original [MIT](rust-runtime/LICENSE-MIT) and
 The upstream notice includes other targets and build dependencies; their
 inclusion does not mean they are linked into this Linux executable.
 
-Compiler-builtins/runtime coverage, AppImage runtime provenance, and the
-source-delivery limitations above remain unresolved.
+The same Rust revision supplies the original
+[compiler-builtins terms](rust-runtime/compiler-builtins-LICENSE.txt), including
+the LLVM exception, and its referenced [libm notices](rust-runtime/libm-LICENSE.txt).
+The referenced [compiler-rt contributor list](rust-runtime/compiler-rt-CREDITS.TXT)
+is also included. These are upstream notices, not an inventory of linked routines.
+
+AppImage runtime provenance and the source-delivery limitations above remain
+unresolved.
