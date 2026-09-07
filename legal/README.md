@@ -52,9 +52,9 @@ OpenPGP signatures were not independently validated.
 
 These are unmodified third-party source packages, not Notner application
 source. They include the packaging build scripts and patches for the matched
-Ubuntu libraries. No reproducible-build claim is made. Application relinking
-conditions and any separate runtime obligations are not resolved by this
-source supplement alone.
+Ubuntu libraries. No reproducible-build claim is made. The [third-party terms and shared-library replacement instructions](BRIDGE-THIRD-PARTY-TERMS.md)
+cover the LGPL exception and the extracted-library replacement route. This
+source supplement is not a reproducible-build attestation.
 
 ## Native Rust helper — supplemental crate notices
 
